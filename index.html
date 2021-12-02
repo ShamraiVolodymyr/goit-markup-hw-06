@@ -370,6 +370,21 @@
             </div>
 
             
+                
+            <!-- <div class="subscribe-form">
+                <p>ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+
+                <form action="#" class="footer-form">
+                        <svg class="email-icon" width="47" height="20">
+                        <use href="./images/icons.svg#icon-E-mail"></use></svg>
+                        <input type="subscribe-text" id="subscribe-text" name="subscribe-text" class="subscribe-input"  
+                            
+                </form>
+                
+            <button class="subscribe-button">Подписаться</button>
+            
+            </div> -->
+            
 
         </div>
     </footer>
@@ -384,45 +399,72 @@
             <p class="modal-title">
                 Оставьте свои данные, мы вам перезвоним
             </p>
-                <form action="#" class="modal-form">
-                    
-                    <div class="modal-field">
-                        <label for="text" class="form-input-text">Имя</label>
-                            <input 
+            <form action="#" class="modal-form">
+                
+                <div class="modal-field">
+                    <label for="text" class="form-input-text">Имя</label>
+                    <span class="input-svg">   
+                        <input 
                             type="text"
                             id="text"
                             name="name" 
                             class="modal-form-input" 
-                            required
                             placeholder="Имя"
                             />
-                    </div>
-                    
-                    <div class="modal-field">
+                        <svg class="svg-form"">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
+                    </span> 
+                </div>
+                
+                <div class="modal-field">
                     <label for="tel" class="form-input-text">Телефон</label>
+                    <span class="input-svg">
                         <input 
-                        type="text"
-                        id="tel"
-                        name="tel" 
-                        class="modal-form-input" 
-                        required
-                        placeholder="+38 066-111-11-11"
-                        />
-                    </div>
-                    
-                    <div class="modal-field">  
+                            type="text"
+                            id="tel"
+                            name="tel" 
+                            class="modal-form-input" 
+                            placeholder="+38 066-111-11-11"
+                            />
+                        <svg class="svg-form"">
+                            <use href=" ./images/icons.svg#icon-phone-black"></use>
+                        </svg>
+                    </span>
+                </div>
+                
+                <div class="modal-field">  
                     <label for="email" class="form-input-text">Почта</label>
+                    <span class="input-svg">
                         <input 
-                        type="text"
-                        id="email"
-                        name="email" class="modal-form-input" 
-                        required
-                        placeholder="text@com.ua"
-                        />
-                    </div>
-            
+                            type="text"
+                            id="email"
+                            name="email" class="modal-form-input" 
+                            placeholder="text@com.ua"
+                            />
+                        <svg class="svg-form"">
+                            <use href=" ./images/icons.svg#icon-email-black"></use>
+                        </svg>
+                        </span>
+                </div>
+                
+                <div class="modal-field">
+                    <label for="com-area" class="form-input-text">Комментарий</label>
+                    <textarea 
+                    name="com-area"
+                    id="com-area" 
+                    class="modal-form-text"
+                    placeholder="Введите текст"></textarea>
+                </div>
+
+                <!-- <div class="modal-field">
+                    <label for="" class="checkbox">Соглашаюсь с рассылкой и принимаю
+                      <a class="checkbox-link" href="">Условия договора</a>
+                    </label>
+                </div> -->
+
                 <button type="submit">Отправить</button>
-            
+        
             </form>
 
         </div>
