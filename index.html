@@ -439,10 +439,11 @@
                         <input 
                             type="text"
                             id="email"
-                            name="email" class="modal-form-input" 
+                            name="email" 
+                            class="modal-form-input" 
                             placeholder="text@com.ua"
                             />
-                        <svg class="svg-form"">
+                        <svg class="svg-form">
                             <use href=" ./images/icons.svg#icon-email-black"></use>
                         </svg>
                         </span>
@@ -457,13 +458,25 @@
                     placeholder="Введите текст"></textarea>
                 </div>
 
-                <!-- <div class="modal-field">
-                    <label for="" class="checkbox">Соглашаюсь с рассылкой и принимаю
-                      <a class="checkbox-link" href="">Условия договора</a>
+               <div class="modal-field">
+                    <input 
+                    type="checkbox" 
+                    name="policy" 
+                    id="policy" 
+                    class="modal-check visually-hidden"
+                    />
+                    <label for="policy" class="check-text">
+                        <span class="check-item">
+                            <svg class="check-icon" wight="11" height="8">
+                            <use href=" ./images/icons.svg#icon-check"></use>
+                            </svg>
+                        </span>
+                        Соглашаюсь с рассылкой и принимаю Условия договора
                     </label>
-                </div> -->
 
-                <button type="submit">Отправить</button>
+               </div>
+
+            <button class="hero-btn submit" type="submit">Отправить</button>
         
             </form>
 
