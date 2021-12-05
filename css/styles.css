@@ -970,6 +970,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: #2196f3;
+  margin-left: 10px;
 }
 
 /* ----------BUTTON-MODAL ------------------- */
@@ -980,9 +981,16 @@ ul {
 }
 
 .check-text {
+  position: relative;
   font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.3;
   color: var(--main-text-color);
   display: flex;
+  align-items: center;
+  justify-content: baseline;
+  margin-left: 52px;
 }
 
 .check-item {
@@ -992,7 +1000,8 @@ ul {
   border: 2 px solid #212121;
   border-radius: 2px;
 
-  margin-right: 5px;
+  margin-right: 8px;
+
   display: flex;
   align-items: center;
   justify-content: center;
