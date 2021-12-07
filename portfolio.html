@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -62,9 +63,10 @@
                         <li class="port-item-btn"><button type="button" class="port-btn link">Маркетинг</button></li>
                     </ul>
                 </div>
-                <ul class="port-list list container">
-                    <div class="port-list-container">
-                        
+                
+                <div class="port-list-container container">
+                    <ul class="port-list list">
+                                            
                         <li class="port-about-item">
                             <a class="activity" href=""></a>
                             <div class="thumb">
@@ -181,8 +183,8 @@
                                 <p class="name-work">Приложение</p>
                             </div>
                         </li>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
@@ -241,15 +243,15 @@
 
             <form action="#" class="footer-form">
 
-                <input type="subscribe-text" id="subscribe-text" name="subscribe-text" class="subscribe-input"
+                <input type="text" id="subscribe-text" name="subscribe-text" class="subscribe-input"
                     placeholder="E-mail">
 
                 <button class="subscribe-button">Подписаться
-                    <div class="sub-button">
+                    
                         <svg class="button-icon" width="47" height="20">
                             <use href="./images/icons.svg#icon-send"></use>
                         </svg>
-                    </div>
+                    
                 </button>
             </form>
         </div>
@@ -257,7 +259,6 @@
 
     </div>
 </footer>
-</body>
 </body>
 
 </html>
