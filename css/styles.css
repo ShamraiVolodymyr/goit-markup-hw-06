@@ -752,10 +752,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding: 6px 22px;
 
   border: var(--second-text-color);
   border-radius: 4px;
