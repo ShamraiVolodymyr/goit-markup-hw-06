@@ -1005,12 +1005,12 @@ ul {
   font-weight: normal;
   line-height: 1.71;
   font-style: normal;
-  letter-spacing: 0.3;
+
   color: var(--main-text-color);
 
   display: flex;
   align-items: center;
-  justify-content: baseline;
+
   margin-left: 20px;
   margin-top: 20px;
 }
